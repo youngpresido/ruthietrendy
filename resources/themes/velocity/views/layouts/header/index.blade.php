@@ -4,7 +4,6 @@
             {{-- <img class="logo" src="{{ core()->getCurrentChannel()->logo_url ?? asset('themes/velocity/assets/images/logo-text.png') }}" alt="" /> --}}
             Ruthietrendy
         </a>
-
         <div class="right searchbar">
             <div class="row">
                 <div class="col-lg-5 col-md-12">
