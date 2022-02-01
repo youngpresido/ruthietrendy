@@ -42,9 +42,9 @@
     @if (! empty($sliderData))
         <link rel="preload" as="image" href="{{ asset('/storage/' . $sliderData[0]['path']) }}">
     @else
-        <link rel="preload" as="image" href="{{ asset('/themes/velocity/assets/images/banner.webp') }}">
+        <link rel="preload" as="image" href="{{ asset('/themes/velocity/assets/images/banner2.webp') }}">
     @endif
-    
+
     <style type="text/css">
         .product-price span:first-child, .product-price span:last-child {
             font-size: 18px;
@@ -65,9 +65,9 @@
             @if ($velocityMetaData)
                 {!! DbView::make($velocityMetaData)->field('home_page_content')->render() !!}
             @else
-                @include('shop::home.advertisements.advertisement-four')
-                @include('shop::home.featured-products')
-                @include('shop::home.advertisements.advertisement-three')
+                {{-- @include('shop::home.advertisements.advertisement-four') --}}
+                {{-- @include('shop::home.featured-products') --}}
+                {{-- @include('shop::home.advertisements.advertisement-three') --}}
                 @include('shop::home.new-products')
                 @include('shop::home.advertisements.advertisement-two')
             @endif
