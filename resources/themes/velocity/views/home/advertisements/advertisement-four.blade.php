@@ -20,7 +20,7 @@
 
         <div class="container-fluid advertisement-four-container">
             <div class="row">
-                <div class="col-lg-4 col-12 advertisement-container-block no-padding">
+                <div class="col-lg-6 col-12 advertisement-container-block no-padding">
                     @if (isset($advertisementFour[0]))
                         <a @if (isset($one)) href="{{ $one }}" @endif aria-label="Advertisement">
                             <img
@@ -31,7 +31,7 @@
                     @endif
                 </div>
 
-                <div class="col-lg-4 col-12 advertisement-container-block offers-ct-panel">
+                <div class="col-lg-6 col-12 advertisement-container-block offers-ct-panel">
                     @if (isset($advertisementFour[1]))
                         <a @if (isset($two)) href="{{ $two }}" @endif class="row col-12 remove-padding-margin" aria-label="Advertisement">
                             <img
@@ -102,8 +102,8 @@
                 <a @if (isset($four)) href="{{ $four }}" @endif aria-label="Advertisement">
                     <img
                         class="{{ $isLazyLoad ? 'lazyload' : '' }}"
-                        @if (! $isLazyLoad) src="{{ asset('/themes/velocity/assets/images/kids.webp') }}" @endif
-                        data-src="{{ asset('/themes/velocity/assets/images/kids.webp') }}" alt="" />
+                        @if (! $isLazyLoad) src="{{ asset('/themes/velocity/assets/images/banner2.webp') }}" @endif
+                        data-src="{{ asset('/themes/velocity/assets/images/banner2.webp') }}" alt="" />
                 </a>
             </div>
         </div>

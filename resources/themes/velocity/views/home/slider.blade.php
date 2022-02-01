@@ -2,7 +2,7 @@
     <div class="slider-container">
         <slider-component
             direction="{{ core()->getCurrentLocale()->direction }}"
-            default-banner="{{ asset('/themes/velocity/assets/images/banner.webp') }}"
+            default-banner="{{ asset('/themes/velocity/assets/images/banner3.png') }}"
             :banners="{{ json_encode($sliderData) }}">
 
             {{-- this is default content if js is not loaded --}}
