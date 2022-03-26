@@ -25,7 +25,7 @@
 
             <a class="left"  style="margin:10px; font-weight:bolder; font-size:30px; " href="{{ route('shop.home.index') }}" aria-label="Logo" >
                 {{-- <img class="logo" src="{{ core()->getCurrentChannel()->logo_url ?? asset('themes/velocity/assets/images/logo-text.png') }}" alt="" /> --}}
-                Ruthietrendy
+                Shopzar
             </a>
         </div>
 
